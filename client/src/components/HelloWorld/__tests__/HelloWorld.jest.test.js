@@ -1,12 +1,11 @@
 import React from 'react';
-import HelloWorld from '../HelloWorld'
-import {shallow, mount} from 'enzyme';
- 
+import { shallow } from 'enzyme';
+import HelloWorld from '../HelloWorld';
+
 describe('Testing UI elements inside Hello World Component', () => {
- 
-   test('Should render Hello World Component', () => {
-       //failing test to start
-       const wrapper = shallow(<HelloWorld />);
-       expect(wrapper.find('[data-qatarget="hello-world-wrapper"]').length).toBe(1);
-   });
+  test('Should render Hello World Component', () => {
+    // failing test to start
+    const wrapper = shallow(<HelloWorld />);
+    expect(wrapper.find('[data-qatarget="hello-world-wrapper"]').length).toBe(1);
+  });
 });
