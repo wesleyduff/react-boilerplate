@@ -1,14 +1,13 @@
-# Jest Testing : React & Redux
-Follow along with the video to start testing with Jest
-
-## Videos
-- [Part 1](https://www.youtube.com/watch?v=FFjYW7bbzo8)
-  - Initializing our application and performing initial configuration
-
-- [Part 2](https://youtu.be/9o1h_kH09dU)
-  - Furthering our configuration with JEST and including code coverage
-  - Adding local hosting for code coverage reporting from istanbul 
-  - Create and run NPM scripts
-
-### Working branch from videos 
-- WIP-REACT_APP
+# Working React App / Boiler Plate Code
+- Working React app 
+  - contains
+    - components
+    - updated webpack for 'AppComponents'
+    - updated babel plugin inside webpack configs (dev and prod)
+    - eslint integration (airbnb)
+    - JEST testing with enzyme
+      - one basic component with test
+      - JEST configuration
+      - enzyme configuration
+      - Your ready to go with testing
+      
