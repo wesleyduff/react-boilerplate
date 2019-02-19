@@ -19,3 +19,9 @@
           - per app
           - per folder
           - per file
+          
+  ## Helpful links
+  
+  - [enzyme](https://airbnb.io/enzyme/)
+  - [jest](https://jestjs.io/)
+ 
