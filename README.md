@@ -10,4 +10,12 @@
       - JEST configuration
       - enzyme configuration
       - Your ready to go with testing
-      
+    - Code coverage with Istanbul (built in with JEST)
+    - NPM scripts to run different test visualizations
+      - `npm run open:cover` runs an HTTP service that hosts your istanbul output
+        - view lines covered
+        - lines not covered
+        - percentage of lines covered
+          - per app
+          - per folder
+          - per file
