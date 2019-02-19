@@ -1,11 +1,9 @@
 import React from 'react';
-const HelloWorld = () => {
- 
-    return (
-        <div data-qatarget="hello-world-wrapper">
+
+const HelloWorld = () => (
+  <div data-qatarget="hello-world-wrapper">
             Hello World!
-        </div>
-    );
-};
- 
+  </div>
+);
+
 export default HelloWorld;
